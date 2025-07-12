@@ -4,7 +4,7 @@ body{
 
 /* nav */
 header{
-    background-image: url(../a1/images/Hero-bg.png;);
+    background-image: url("./images/Hero-bg.png");
     padding: 0px;
     margin: 0px;
 }
@@ -57,7 +57,7 @@ nav ul li{
     border: none;    
 }
 
-/* footer */
+    /* footer */
 
 footer{
     background-color: #FFFFFF;
@@ -107,4 +107,190 @@ footer p{
 footer a{
     text-decoration: none;
     color:#8987A1;
+}
+
+/*  */
+
+.review .card1 .reviwer .h5{
+    padding: 0px;
+}
+.action{
+    display:flex;
+    padding: 30px;
+    font-size: 30px;
+    justify-content:space-around;
+    align-items: center;
+    gap: 40px;
+    background-color:#f6f8fc ;
+    width: 1140px;
+    height:306 ;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.action h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+.action .action-img{
+    width: 100%;
+    height:auto;
+    padding:left;
+    border-radius: 25px;
+    display: block;
+}
+
+
+.btn-secondary{
+    
+    background-color: blue;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 10px;
+    border: none;  
+}
+
+.newsletter{
+    display: flex;
+    padding: 100px 200px;
+    gap: 100px;
+    width: 1140px;
+    height:306 ;
+    margin-top: 10px;
+    align-items: flex-start;
+    background-color: #D6DDED;
+}
+
+.newsletter-from{
+    width: 400px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"]
+input[type="email"]{
+    height: 60px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: black;
+    display: block;
+    width: 100%;
+    padding: 09px 14px;
+    border: none;
+}
+
+.newsletter-heading{
+    font-size: 45px;
+    font-weight: bold;
+    width: 40%;
+    position:left;
+}
+
+.btn-secondrey1{
+    
+    background-color: blue;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 10px;
+    border: none;  
+    cursor: pointer;
+}
+
+.prodective .list .li .number{
+        list-style: none;
+}
+
+
+/* gfg */
+
+.prodective{
+    background: #D6DDED;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    width: 1140px;
+    height:306 ;
+    margin-top: 20px;
+}
+
+.prodective .pro-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prodective .pro-list p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #8987A1;
+    padding: 0;
+}
+
+
+.prodective .pro-list h3{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+}
+
+.prodective h2{
+    font-size: 40px;
+    font-weight: 800;
+    background: #D6DDED;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+
+.review  .card1 .reviwer{
+    display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+review  .card1 .reviwer .h5{
+    display: block;
+}
+
+
+.card1 {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: left;
+  display: block;
+}
+
+
+.review {
+  display: flex;
+  align-items: center;
+  margin-top:20px;
+  margin-left:160px;
+  gap: 30px;
+  width: 1140px;
+  background-color: #f6f8fc;
+  height: 380;
+}
+
+h2{
+    text-align: center;
+        background-color:none;    
 }
